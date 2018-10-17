@@ -11,6 +11,7 @@ import java.util.HashMap;
  * 
  * @author Earl_iu
  * 
+ * 知识点：HashMap
  * 给出一个数组和一个目标值，得到目标值是否是数组中两数之和，如果是就返回两个数的index，例如[3,2,3] target = 6, return [0,2];
  * 
  */
