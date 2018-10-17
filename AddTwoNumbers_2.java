@@ -10,6 +10,7 @@ import java.util.Iterator;
 /**
  *
  * @author Earl_iu
+ * 知识点：LinkedList
  */
 
 class ListNode {
