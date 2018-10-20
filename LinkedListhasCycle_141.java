@@ -31,4 +31,4 @@ public class LinkedListhasCycle_141 {
         }
         return false;
     }
-}
+} 
