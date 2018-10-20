@@ -68,5 +68,5 @@ public class LongestSubstring_3 {
             map.put(c, i);
         }
         return res;
-    }
+    } 
 }
