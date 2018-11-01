@@ -50,6 +50,7 @@ public class LongestSubstring_3 {
     /*
     * 用两个指针来控制substring，如果我们发现s[j]在[i,j)中有一个重复，index为k，我们将左边的指针移到k+1，并继续更新
     * abcbd -> left一直为0，知道b再次出现的时候，left更新为3，即c，这样就消除了重复
+    * 我们记录[i,k)这个substring的长度，然后和后来的无重复字串长度进行比较
     */
     
     public static int elegantSubstring(String s) {
