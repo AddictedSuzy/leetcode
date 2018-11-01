@@ -8,7 +8,7 @@ package leetcode;
 /**
  *
  * @author Earl_iu
- * 最长公公前缀
+ * 最长公共前缀
  */
 public class CommonPrefix_14 {
     public static void main(String agrs[]){
