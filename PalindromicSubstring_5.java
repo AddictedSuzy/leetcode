@@ -33,4 +33,30 @@ public class PalindromicSubstring_5 {
         }
         return res;
     }
+    
+    int maxLen;
+    int lo;
+    
+    public String search_recursion(String s){
+        if(s.length()<2){
+            return s;
+        }
+        for(int i =0;i<s.length()-1;i++){
+            search(s,i,i);  // 将String长度认为是奇数
+            search(s,i,i+1);  // 将String长度认为是偶数
+        }
+        
+        return s.substring(lo,lo+maxLen);
+    }
+    
+    public void search(String s, int j, int k){
+        while(j>=0 && k<s.length() && s.charAt(j) == s.charAt(k)){
+            j--;
+            k++;
+        }
+        if(maxLen<k-j+1){
+            lo =j+1;
+            maxLen = k-j+1;
+        }
+    }
 }
