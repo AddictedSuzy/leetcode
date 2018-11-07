@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package leetcode;
+package leetcode.Array;
 
 import java.util.HashMap;
 
@@ -55,4 +55,4 @@ public class TwoSum_1 {
         throw new IllegalArgumentException("No two sum solution");
     } 
     
-} 
+}

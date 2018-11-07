@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package leetcode;
+package leetcode.Array;
 
+import leetcode.Array.ListNode;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -31,4 +32,4 @@ public class LinkedListhasCycle_141 {
         }
         return false;
     }
-} 
+}

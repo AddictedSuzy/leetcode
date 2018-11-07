@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package leetcode;
+package leetcode.String;
 
 /**
  *
  * @author Earl_iu
- * 最长公共前缀
+ * 最长公公前缀
  */
 public class CommonPrefix_14 {
     public static void main(String agrs[]){

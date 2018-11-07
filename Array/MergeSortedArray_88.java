@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package leetcode;
+package leetcode.Array;
 
 /**
  *
@@ -34,6 +34,6 @@ public class MergeSortedArray_88 {
         }
          while (pointerb != -1) {
 	    nums1[pointermerge--] = nums2[pointerb--];
-        } 
+        }
     }
 }
